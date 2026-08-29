@@ -5,8 +5,7 @@ async function main () {
   const users = await fetch("https://jsonplaceholder.typicode.com/users");
   const usersData = await users.json();
 console.log(usersData);
-usersData.map(user => ) 
-  const x = <div class="user-card__container">
+usersData.map(user => <div class="user-card__container">
 
 <h3>User's Name</h4>
 
@@ -14,7 +13,8 @@ usersData.map(user => )
 <p><b>Phone:</b> 0000000000</p>
 <p><b>Website:</b> <a href="https://website.website" target="_blank">
 </div>
-</div>
+</div>) 
+  const x = 
 
 }
 

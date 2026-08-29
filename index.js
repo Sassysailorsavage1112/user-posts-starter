@@ -14,7 +14,9 @@ usersData.map(user => <div class="user-card__container">
 <p><b>Website:</b> <a href="https://website.website" target="_blank">
 </div>
 </div>
+
 ) 
+ .join("")
   );
 
 }
